@@ -1,0 +1,94 @@
+h1 {
+	font-weight:300;
+	font-size:2.888889em;
+	color:#fff;
+	letter-spacing:-0.05em;
+	line-height:1.2
+}
+h2{
+	font-weight:700;
+	color:#58595b;
+	font-size:2.2222em;
+	margin:0
+}
+.container {
+	width:720px;
+	height:550px;
+	border:1px solid #ccc;
+	background:#000;
+	margin:10% auto;
+	border-radius:6px;
+	
+}
+
+/*progress bar*/
+.progress-container {
+
+	width:50%;
+	height:70%;
+	background:url(../img/progress-step2.png) no-repeat;
+	margin:10% auto;
+	
+
+	
+	
+}
+.progress-active {
+	display:block;
+	position:absolute;
+	z-index:4;
+	width:50%;
+	height:50%;
+	background:url(../img/progress-step-active.png) no-repeat;
+	margin-top:-15px;
+	margin-left:-20px;
+}
+.step-number {
+	display:block;
+	position:absolute;
+	z-index:5;
+	width:50px;
+	height:70%;
+	font-size:27px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	text-decoration:none;
+	color:#bababa;
+	padding-top:32px;
+	text-shadow:3px 4px 5px #000;
+	padding-left:5px;
+	margin-top:-15px;
+}
+.step-number:nth-child(2){
+	margin-left:72px;
+	padding-left:25px;
+}
+.step-number:nth-child(3){
+	margin-left:162px;
+	padding-left:25px;
+}
+.step-number:nth-child(4){
+	margin-left:255px;
+	padding-left:25px;
+}
+
+.slide-content {
+	width:650px;
+	padding:35px;
+	height:300px;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+
+	color:#fff;
+}
+
+.slide-content-switcher {
+	display:none;
+}
+.slide-content-switcher:first-child {
+	display:block;
+}
+.slide-content .col-2{
+	width:50%;
+	float:left;
+}

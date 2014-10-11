@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+    <div class="container">
+     <div class="slide-content">
+         <div class="slide-content-switcher" id="content1">
+                <h1>Why Nova Education</h1>
+                <p>
+
+                If you are looking for a genuine advise on your education and career needs, you are almost there. Nova Education is here to help you out in each and every step throughout your journey in Australia.
+                <h2>
+                Visit Us:</h2>
+                <p>Level 2, 150 Edward St, Brisbane</p>
+                <h2>Call Us:</h2>
+                <p>07-3194 6101 OR 0451 513 385</p>
+        </div>
+        <div class="slide-content-switcher" id="content2">
+                <h1>Home</h1>
+                <p>
+
+                Nova Education and Consulting Services (NECS) helps student make informed decision on the right program and courses in Australian Colleges and Universities. Student life is one of the best stages of our life but yet it comes with different challenges. Nova Education is here to help you out in each and every step through the journey. We hope that you will enjoy our company. We wish you all the best.
+                <h2>
+                We Offer:</h2>
+                <ul>
+                    <li>student counselling</li>
+                    <li>programs/courses in Australian Universities and Colleges</li>
+                    <li>job search / work placement</li>
+                    <li>career assistance</li>
+                    <li>resume tips and interview preparation</li>
+                </ul>
+
+        </div>
+        <div class="slide-content-switcher" id="content3">
+         <h1>Find the right job</h1>
+            <p>Anyone looking for potential employers or sponsors or work experience, please fill in your details and we will get back to you shortly. We will also help you write a professional resume and covering letter. Submit your details here.
+            </p>
+        </div>
+        <div class="slide-content-switcher" id="content4">
+
+             <h1>Find us!</h1>
+            <div class="col-2">
+            <h2>Brisbane City Office:</h2>
+
+            <p>Level 2, 150 Edward St</p>
+
+            <p>Brisbane, QLD 4000</p>
+
+            <p>Ph: (+61) 0451 513 385 / 07 3194 6101</p>
+
+            <p>View the location in a map</p>
+            </div>
+            <div class="col-2">
+            <h2>Kathmandu Office:</h2>
+
+            <p>Opposite PK Campus</p>
+
+            <p>Bagbazar, Kathmandu</p>
+
+            <p>Ph: (+977) 01 4167548 / 9843799005</p>
+            </div>
+        </div>
+   
+    </div>
+        <div class="progress-container">
+        <a href="#" class="step-number" onclick="activeStep(1); return false;">1</a>
+            <a href="#" class="step-number" onclick="activeStep(2); return false;">2</a>
+            <a href="#" class="step-number" onclick="activeStep(3); return false;">3</a>
+            <a href="#" class="step-number" onclick="activeStep(4); return false;">4</a>
+                <div class="progress-active"></div>
+
+                
+            </div>
+</div>
+
+  
+       
+
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+     
+        <script src="js/content-slider.js"></script>
+        
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        
+        <script>
+
+        function activeStep(n) {
+    if(n == 1) {
+        $('.progress-active').animate({marginLeft: '-20px'}, 300);
+    }
+    else if (n == 2){
+        $('.progress-active').animate({marginLeft: '72px'}, 300);
+    }
+    else if (n == 3){
+        $('.progress-active').animate({marginLeft: '162px'}, 300);
+    }
+    else if (n == 4){
+        $('.progress-active').animate({marginLeft: '255px'}, 300);
+    }
+    $(".slide-content-switcher").hide();
+    $("#content"+n).show();
+
+    }
+    
+
+ 
+</script>
+
+    </body>
+</html>
